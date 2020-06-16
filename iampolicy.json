@@ -1,0 +1,28 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "s3:GetObjectRetention",
+                "s3:GetObjectVersionTagging",
+                "s3:PutObjectLegalHold",
+                "s3:GetObjectLegalHold",
+                "s3:ListMultipartUploadParts",
+                "s3:GetObjectVersionTorrent",
+                "s3:PutObject",
+                "s3:GetObjectAcl",
+                "s3:GetObject",
+                "s3:GetObjectTorrent",
+                "s3:AbortMultipartUpload",
+                "s3:PutObjectRetention",
+                "s3:GetObjectVersionAcl",
+                "s3:GetObjectTagging",
+                "s3:GetObjectVersionForReplication",
+                "s3:GetObjectVersion"
+            ],
+            "Resource": "arn:aws:s3:::eran-lambda-001/*"
+        }
+    ]
+}
